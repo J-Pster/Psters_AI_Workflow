@@ -1,0 +1,13 @@
+---
+description: Checklist used during implementation and review
+alwaysApply: false
+globs:
+  - "**/*"
+---
+
+review-checklist:
+
+- Confirm new behavior has clear examples or tests where practical.
+- Flag security-sensitive code paths for input validation review.
+- Check for breaking changes in APIs, config, or user workflows.
+- Ensure docs and migration notes are present for meaningful changes.
