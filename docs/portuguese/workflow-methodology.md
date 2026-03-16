@@ -147,6 +147,39 @@ Para uma explicacao visual com diagramas Mermaid (fluxo XP, fluxo Psters e mapa 
 
 - `extreme-programming.md`
 
+## Escolhendo o modelo certo para cada etapa
+
+Nem toda etapa deve usar o mesmo modelo. A distincao mais importante e entre **planejamento** e **execucao**.
+
+### Etapas de planejamento — use o modelo mais capaz disponivel
+
+`/brainstorm` e `/plan` sao as etapas mais criticas de qualquer feature. Elas definem arquitetura, restricoes, escopo e o detalhamento completo de tarefas. Se o plano estiver fraco ou incompleto, nenhuma qualidade de execucao vai corrigir isso. Retrabalho de implementacao e barato. Retrabalho de arquitetura e caro.
+
+Use os modelos mais capazes disponiveis nessas etapas: Claude Sonnet, Opus ou equivalentes de alto raciocinio. A diferenca na qualidade do plano — cobertura de edge cases, identificacao de risco de integracao, precisao de tarefas — e substancial.
+
+### Etapas de execucao — modelo intermediario em modo auto e suficiente
+
+`/work-plan` e `/work` executam um plano que ja existe. As decisoes foram tomadas. A arquitetura foi definida. O agente segue instrucoes estruturadas, aplica padroes do projeto e atualiza documentacao. Modelo de ponta nao e necessario para tarefas de execucao bem definidas.
+
+Modelos intermediarios em modo auto entregam excelente resultado com latencia menor e custo significativamente inferior nessas etapas.
+
+### Revisao — prefira modelo mais capaz
+
+`/review` dispara multiplos agentes especializados para auditar codigo, identificar regressoes e levantar riscos. Raciocinio profundo e necessario. Use modelo mais capaz aqui.
+
+### Tabela de selecao de modelo
+
+| Etapa | Recomendacao |
+|-------|-------------|
+| `/brainstorm` | Modelo de alta capacidade (Sonnet, Opus, equivalentes) |
+| `/plan` | Modelo de alta capacidade — etapa mais critica |
+| `/work-plan` | Modelo intermediario em auto ou modo padrao |
+| `/work` | Modelo intermediario em auto ou modo padrao |
+| `/review` | Modelo de alta capacidade |
+| `/commit-changes` | Qualquer modelo |
+
+> O planejamento e onde a feature e ganha ou perdida. Invista capacidade do modelo na etapa que define o destino. Deixe a execucao ser eficiente.
+
 ## Recomendacao pratica
 
 Se o trabalho e de feature, comece por:

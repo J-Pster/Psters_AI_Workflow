@@ -159,6 +159,28 @@ flowchart LR
 
 > Tip: `/work-plan` is the default for phased implementation, while `/work` is the fast lane for smaller scoped changes.
 
+### Choosing the right model for each step
+
+Not all steps require the same model. The most important distinction is between **planning** and **execution**.
+
+**Planning steps (`/brainstorm`, `/plan`) → use your most capable model.**
+These steps define the architecture, scope, and task breakdown for the entire feature. A weak plan produces rework regardless of how well execution is done. Invest in model quality here — the cost is negligible compared to the cost of a poorly designed feature.
+
+**Execution steps (`/work-plan`, `/work`) → a mid-tier model in auto mode is enough.**
+The plan already exists. The decisions have been made. The agent follows structured instructions and updates docs. There is no need for a top-tier model for well-scoped execution tasks.
+
+**Review (`/review`) → prefer a capable model.**
+Review requires deep reasoning to spot regressions, edge cases, and architectural risks.
+
+| Step | Model recommendation |
+|------|---------------------|
+| `/brainstorm` | High-capability model (Sonnet, Opus, equivalents) |
+| `/plan` | High-capability model — this is the most critical step |
+| `/work-plan` | Mid-tier model in auto or standard mode |
+| `/work` | Mid-tier model in auto or standard mode |
+| `/review` | High-capability model |
+| `/commit-changes` | Any model |
+
 ### Workflow commands
 
 Recommended flow:
@@ -337,6 +359,28 @@ flowchart LR
 6. Use `/doc` e `/compound` quando quiser forcar uma saida de documentacao especifica.
 
 > Dica: `/work-plan` e o caminho padrao para implementacao em fases, enquanto `/work` e o caminho rapido para mudancas menores.
+
+### Escolhendo o modelo certo para cada etapa
+
+Nem toda etapa precisa do mesmo modelo. A distincao mais importante e entre **planejamento** e **execucao**.
+
+**Etapas de planejamento (`/brainstorm`, `/plan`) → use o modelo mais capaz disponivel.**
+Essas etapas definem arquitetura, escopo e o detalhamento de tarefas para toda a feature. Um plano fraco gera retrabalho independente da qualidade da execucao. O custo de um modelo mais caro aqui e irrelevante perto do custo de uma feature mal planejada.
+
+**Etapas de execucao (`/work-plan`, `/work`) → modelo intermediario em modo auto e suficiente.**
+O plano ja existe. As decisoes foram tomadas. O agente segue instrucoes estruturadas. Nao e necessario modelo de ponta para execucao bem definida.
+
+**Revisao (`/review`) → prefira modelo mais capaz.**
+Revisao exige raciocinio profundo para identificar regressoes, edge cases e riscos arquiteturais.
+
+| Etapa | Modelo recomendado |
+|-------|-------------------|
+| `/brainstorm` | Modelo de alta capacidade (Sonnet, Opus, equivalentes) |
+| `/plan` | Modelo de alta capacidade — etapa mais critica |
+| `/work-plan` | Modelo intermediario em auto ou modo padrao |
+| `/work` | Modelo intermediario em auto ou modo padrao |
+| `/review` | Modelo de alta capacidade |
+| `/commit-changes` | Qualquer modelo |
 
 ### Comandos do workflow
 

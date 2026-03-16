@@ -147,6 +147,39 @@ For a visual explanation with Mermaid diagrams (XP workflow, Psters workflow, an
 
 - `extreme-programming.md`
 
+## Choosing the right model for each step
+
+Not every step should use the same model. The most important distinction is between **planning** and **execution**.
+
+### Planning steps — use your most capable model
+
+`/brainstorm` and `/plan` are the most critical steps of any feature. They define architecture, constraints, scope, and the full task breakdown. If the plan is weak or incomplete, no amount of execution quality will fix it. Rework at the implementation level is cheap. Rework at the architecture level is expensive.
+
+Use the most capable models available for these steps: Claude Sonnet, Opus, or equivalent high-reasoning models. The difference in plan quality — edge case coverage, integration risk identification, task precision — is substantial.
+
+### Execution steps — a mid-tier model in auto mode is sufficient
+
+`/work-plan` and `/work` execute a plan that already exists. The decisions have been made. The architecture has been defined. The agent follows structured instructions, applies project patterns, and updates documentation. A top-tier model is not needed for well-scoped execution tasks.
+
+Mid-tier models in auto mode deliver excellent results at lower latency and significantly lower cost for these steps.
+
+### Review — prefer a capable model
+
+`/review` spawns multiple specialized agents to audit code, identify regressions, and surface risks. Deep reasoning is required. Use a capable model here.
+
+### Model selection table
+
+| Step | Recommendation |
+|------|---------------|
+| `/brainstorm` | High-capability model (Sonnet, Opus, equivalents) |
+| `/plan` | High-capability model — the most critical step |
+| `/work-plan` | Mid-tier model in auto or standard mode |
+| `/work` | Mid-tier model in auto or standard mode |
+| `/review` | High-capability model |
+| `/commit-changes` | Any model |
+
+> Planning is where the feature is won or lost. Invest model quality in the phase that defines the destination. Let execution be efficient.
+
 ## Practical recommendation
 
 If the work is feature-sized, always start with:

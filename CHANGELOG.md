@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is inspired by Keep a Changelog.
 
+## [0.1.3] - 2026-03-16
+
+### Added
+
+- Model selection guidance across planning and execution steps:
+  - New section in `docs/english/workflow-methodology.md`: "Choosing the right model for each step"
+  - New section in `docs/portuguese/workflow-methodology.md`: "Escolhendo o modelo certo para cada etapa"
+  - New section in `README.md` (EN and PT-BR): model recommendation table per command
+  - Covers rationale: planning steps (`/brainstorm`, `/plan`, `/review`) require high-capability models; execution steps (`/work-plan`, `/work`) work well with mid-tier models in auto mode
+
 ## [0.1.2] - 2026-03-16
 
 ### Added
