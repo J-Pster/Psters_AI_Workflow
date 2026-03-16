@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Starter Advanced Logo</title>
-  <desc id="desc">Full-featured plugin logo with lightning and badge.</desc>
-  <rect width="128" height="128" rx="20" fill="#111827" />
-  <path d="M68 18 36 72h24l-6 38 38-58H66z" fill="#F59E0B" />
-  <circle cx="98" cy="30" r="12" fill="#10B981" />
-</svg>

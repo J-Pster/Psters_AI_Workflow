@@ -1,27 +1,26 @@
-# Cursor plugin template
+# AI Workflow Cursor Plugin
 
-Build and publish Cursor Marketplace plugins from a single repo.
+Build and publish the `psters-ai-workflow` Cursor Marketplace plugin from this repository.
 
-Two starter plugins are included:
+Included plugin:
 
-- **starter-simple**: rules and skills only
-- **starter-advanced**: rules, skills, agents, commands, hooks, MCP, and scripts
+- **psters-ai-workflow**: daily AI development workflow (rules, skills, agents, and commands)
 
 ## Getting started
 
 [Use this template](https://github.com/cursor/plugin-template/generate) to create a new repository, then customize:
 
 1. `.cursor-plugin/marketplace.json`: set marketplace `name`, `owner`, and `metadata`.
-2. `plugins/*/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
+2. `plugins/psters-ai-workflow/.cursor-plugin/plugin.json`: set `name` (lowercase kebab-case), `displayName`, `author`, `description`, `keywords`, `license`, and `version`.
 3. Replace placeholder rules, skills, agents, commands, hooks, scripts, and logos.
 
 To add more plugins, see `docs/add-a-plugin.md`.
 
 ## Single plugin vs multi-plugin
 
-This template defaults to **multi-plugin** (multiple plugins in one repo).
+This repository is currently configured as a **single maintained plugin** inside `plugins/`.
 
-For a **single plugin**, move your plugin folder contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
+If you later decide to move to true single-plugin root mode, move plugin contents to the repository root, keep one `.cursor-plugin/plugin.json`, and remove `.cursor-plugin/marketplace.json`.
 
 ## Submission checklist
 
