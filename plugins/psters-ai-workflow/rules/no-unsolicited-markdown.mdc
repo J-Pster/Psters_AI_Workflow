@@ -1,0 +1,15 @@
+---
+description: Prevent unsolicited markdown file creation
+alwaysApply: true
+---
+
+# No Unsolicited Markdown Files
+
+**Purpose:** Prevent spontaneous creation of markdown files outside defined workflows.
+
+**Required behavior:** Create `.md` files only when:
+1. The user explicitly requests documentation.
+2. A workflow command defines markdown output (e.g. `/plan` → `docs/plans/*.md`; `/work-plan` or `/work` → updates existing plan/docs when required).
+3. Updating an existing markdown file that is part of the current task.
+
+**Constraints:** Do not create unsolicited summaries, changelogs, or ad-hoc documentation.

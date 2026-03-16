@@ -1,0 +1,20 @@
+---
+description: TypeORM migration safety workflow (apply only when the user is using TypeORM)
+alwaysApply: true
+---
+
+# TypeORM Migrations (Conditional)
+
+**Purpose:** Enforce safe, CLI-driven migration workflow when TypeORM is in use.
+
+**Scope:** Apply only if the project uses TypeORM. Ignore otherwise.
+
+**Required behavior:**
+1. Generate migrations with TypeORM CLI. Do not hand-write migration files.
+2. Review generated changes before committing.
+3. Run migrations locally immediately after generation to avoid schema drift.
+4. Fix any migration execution failure before continuing.
+
+**Examples:** `npm run typeorm:generate -- src/database/migrations/MigrationName`; `npm run typeorm:run`; `npm run typeorm:revert`.
+
+**Constraints:** Do not create migration files manually unless the user explicitly requests custom SQL. Keep one clear migration objective per change set.

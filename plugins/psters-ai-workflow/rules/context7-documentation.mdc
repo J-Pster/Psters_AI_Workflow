@@ -1,0 +1,17 @@
+---
+description: Use Context7 documentation before library/framework implementation
+alwaysApply: true
+---
+
+# Context7 — Library Documentation First
+
+**Purpose:** Ensure up-to-date framework and library documentation is consulted before implementation or debugging.
+
+**Required behavior:**
+1. Call `resolve-library-id` to identify the correct Context7 library ID.
+2. Call `query-docs` with the resolved library ID and a focused query.
+3. Apply documented patterns before implementing code changes.
+
+Use the Context7 MCP server configured in `mcp.json` (tools: `resolve-library-id`, `query-docs`).
+
+**When to use:** New integrations with third-party libraries; framework-specific patterns or API usage; version-specific migration and deprecation checks.

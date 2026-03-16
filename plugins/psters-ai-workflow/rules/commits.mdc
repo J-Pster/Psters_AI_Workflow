@@ -1,0 +1,17 @@
+---
+description: Commit message standards for daily AI workflow
+alwaysApply: true
+---
+
+# Commit Messages
+
+**Purpose:** Standardize commit messages for clarity and traceability.
+
+**Required behavior:**
+- Write commit messages in English.
+- Use ticket prefix when available: `[TICKET-XXXX]`. Ask once for a ticket number before the first commit when missing.
+- Use conventional commits with emoji. Format: `[TICKET-XXXX] <emoji> <type>(<scope>): <subject>`
+
+**Types:** `🚀 feat` (new feature), `🐛 fix` (bug fix), `📝 docs`, `♻️ refactor`, `✅ test`, `⚡ perf`, `🔧 chore`, `🎨 style`, `🔒 security`.
+
+**Constraints:** Keep the subject concise and imperative. One clear objective per commit. Add a body only when extra context is useful.
