@@ -27,5 +27,6 @@ Esta pasta contém a versão em português da documentação.
 - `extreme-programming.md`
 - `hooks-reference.md`
 - `faq.md`
+- `marketing-workflows.md`
 - `docs-quality-checklist.md`
 - `wiki-sync.md`

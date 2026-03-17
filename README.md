@@ -1,9 +1,21 @@
-<h1>
-  Pster's AI Workflow
-  <img src="plugins/psters-ai-workflow/assets/logo.svg" alt="Psters AI Workflow logo" width="56" align="right" />
-</h1>
+<p align="center">
+  <img src="plugins/psters-ai-workflow/assets/logo.svg" alt="Psters AI Workflow logo" width="72" />
+</p>
+<h1 align="center">Pster's AI Workflow</h1>
+<p align="center">
+  <strong>Anti-vibe-coding workflow for engineering teams that want AI speed with software rigor.</strong>
+</p>
+<p align="center">
+  <a href="#psters-ai-workflow-explained-english">English</a> · <a href="#psters-ai-workflow-explicado-portugues-pt-br">Português (PT-BR)</a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/workflow-model--agnostic-5b6cff?style=for-the-badge" alt="Workflow: Model-agnostic">
+  <img src="https://img.shields.io/badge/approach-anti--vibe--coding-0f172a?style=for-the-badge" alt="Approach: Anti-vibe-coding">
+  <img src="https://img.shields.io/badge/docs-bilingual-0ea5e9?style=for-the-badge" alt="Docs: Bilingual">
+  <img src="https://img.shields.io/badge/focus-engineering%20rigor-16a34a?style=for-the-badge" alt="Focus: Engineering rigor">
+</p>
 
-An anti-vibe-coding, agentic AI workflow that improves results with engineering rigor in any project, language, and framework.
+An AI workflow that is model-agnostic and editor-flexible, usable in any project (new or existing), with any framework, technology, or programming language, with a native plugin currently available for Cursor IDE.
 
 ## Pster's AI Workflow Explained (START HERE)
 
@@ -22,6 +34,12 @@ An anti-vibe-coding, agentic AI workflow that improves results with engineering 
 >
 > A practical deep-dive into how this workflow was built and used in real projects.
 
+## Adjacent ecosystems
+
+If your primary use case is software engineering, this repository is the default path.
+
+If your day-to-day work is **marketing execution** (CRO, SEO, paid media, campaign assets), there is a specialized ecosystem with a similar "context-first + iterative refinement" philosophy: [ESC Skills](https://github.com/guilhermemarketing/esc-skills).
+
 ## Documentation Navigation
 
 - Docs index (start here): [docs/README.md](docs/README.md)
@@ -38,6 +56,7 @@ An anti-vibe-coding, agentic AI workflow that improves results with engineering 
 - [Using the workflow outside Cursor](docs/english/other-editors.md)
 - [Hooks reference](docs/english/hooks-reference.md)
 - [FAQ](docs/english/faq.md)
+- [Marketing workflows bridge](docs/english/marketing-workflows.md)
 - [Docs quality checklist](docs/english/docs-quality-checklist.md)
 
 ### Portuguese docs
@@ -50,6 +69,7 @@ An anti-vibe-coding, agentic AI workflow that improves results with engineering 
 - [Usando o workflow fora do Cursor](docs/portuguese/other-editors.md)
 - [Referencia de hooks](docs/portuguese/hooks-reference.md)
 - [FAQ](docs/portuguese/faq.md)
+- [Workflow para marketing](docs/portuguese/marketing-workflows.md)
 - [Checklist de qualidade de documentacao](docs/portuguese/docs-quality-checklist.md)
 
 ## Quick map
@@ -267,6 +287,7 @@ flowchart TB
 - `docs/english/examples-in-practice.md`: realistic workflow examples (EN).
 - `docs/english/hooks-reference.md`: hook events and behaviors (EN).
 - `docs/english/faq.md`: common questions and usage decisions (EN).
+- `docs/english/marketing-workflows.md`: bridge note for marketing-focused workflow ecosystems (EN).
 - `docs/english/docs-quality-checklist.md`: quality checklist before docs merge (EN).
 - `docs/english/wiki-sync.md`: how to publish docs to GitHub Wiki (EN).
 - `docs/english/`: English documentation set.
@@ -471,6 +492,7 @@ flowchart TB
 - `docs/portuguese/examples-in-practice.md`: exemplos realistas de execucao do workflow (PT-BR).
 - `docs/portuguese/hooks-reference.md`: eventos e comportamentos dos hooks (PT-BR).
 - `docs/portuguese/faq.md`: duvidas comuns e decisoes de uso (PT-BR).
+- `docs/portuguese/marketing-workflows.md`: nota de ponte para workflows focados em marketing (PT-BR).
 - `docs/portuguese/docs-quality-checklist.md`: checklist de qualidade antes de merge de docs (PT-BR).
 - `docs/portuguese/wiki-sync.md`: como publicar docs na GitHub Wiki (PT-BR).
 - `docs/english/`: conjunto de documentacao em ingles.

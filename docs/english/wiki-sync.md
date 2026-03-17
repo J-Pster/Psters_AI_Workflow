@@ -14,6 +14,11 @@ This project can publish the `docs/` content into the repository Wiki.
 - Every push to `main` that changes docs triggers sync automatically.
 - The workflow exports docs pages and updates the Wiki repo.
 
+## Special page for marketing audiences
+
+- The page `docs/english/marketing-workflows.md` is included in wiki sync.
+- It acts as a bridge for users asking for a marketing-focused workflow path.
+
 ## If sync fails
 
 - Confirm Wiki is enabled.

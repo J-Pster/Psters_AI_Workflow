@@ -14,6 +14,11 @@ Este projeto pode publicar o conteudo de `docs/` na Wiki do repositorio.
 - Todo push em `main` que altere docs dispara sincronizacao automatica.
 - O workflow exporta as paginas de docs e atualiza o repositorio da Wiki.
 
+## Pagina especial para audiencia de marketing
+
+- A pagina `docs/portuguese/marketing-workflows.md` e incluida na sincronizacao.
+- Ela serve como ponte para quem pergunta por um workflow focado em marketing.
+
 ## Se falhar
 
 - Confirme que a Wiki esta ativada.
