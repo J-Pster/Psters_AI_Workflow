@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is inspired by Keep a Changelog.
 
+## [0.1.7] - 2026-03-16
+
+### Changed
+
+- Removed `aws-cli-only.mdc` and `user-facing-text.mdc` from the plugin rules (project-specific rules that do not belong in the generic workflow plugin).
+- Added `commits.mdc` to the repository-level `.cursor/rules/` (maintainer-only convention, not part of the installable plugin).
+- Cleaned up stale references to removed rules in `skills/angular-conventions/SKILL.md`, `agents/research/ux-consistency-reviewer.md`, and `plugins/psters-ai-workflow/README.md`.
+
 ## [0.1.6] - 2026-03-16
 
 ### Removed

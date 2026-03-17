@@ -1,7 +1,7 @@
 {
   "name": "psters-ai-workflow",
   "displayName": "AI Workflow",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Daily AI development workflow with planning, execution, review, and commit conventions.",
   "author": {
     "name": "AI Workflow"

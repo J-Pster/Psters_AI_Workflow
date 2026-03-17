@@ -78,7 +78,7 @@ To validate submission readiness:
 
 ### Included
 
-- **rules/**: commit conventions, markdown discipline, TypeORM migrations, Context7 documentation, user-facing text, AWS CLI
+- **rules/**: commit conventions, markdown discipline, TypeORM migrations, Context7 documentation
 - **skills/**: commit orchestration, per-repo commit worker, NestJS/Angular conventions, Lambda deploy, git-worktree
 - **agents/**: full workflow agents — review (simplicity, security, architecture, schema-drift, performance, etc.), design, docs, research, workflow
 - **commands/**: `brainstorm`, `plan`, `work-plan`, `work`, `review`, `doc`, `compound`, `deploy-lambda`, `commit-changes`

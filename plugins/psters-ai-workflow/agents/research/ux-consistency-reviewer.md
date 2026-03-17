@@ -47,7 +47,7 @@ Check for:
 - **No left border bars** (`.cursor/rules/no-left-borders.mdc`) — suggest alternatives
 - **No NgModules** — all components must be standalone
 - **No async in getters or template methods** (from `critical-patterns.md`)
-- **All user-facing text in English** (from `user-facing-text.mdc`)
+- **All user-facing text in English**
 - **Error capture** — all frontend errors through `ErrorCaptureService`
 
 ### Step 6: UX Consistency Recommendations
