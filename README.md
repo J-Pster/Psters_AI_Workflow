@@ -24,10 +24,20 @@
 
 An AI workflow that is model-agnostic and editor-flexible, usable in any project (new or existing), with any framework, technology, or programming language, with a native plugin currently available for Cursor IDE.
 
-## Pster's AI Workflow Explained (START HERE)
-
-- English: [jump to English section](#psters-ai-workflow-explained-english)
-- Portuguese (PT-BR): [jump to Portuguese section](#psters-ai-workflow-explicado-portugues-pt-br)
+<table align="center">
+  <tr>
+    <td align="center">
+      <p><strong>🚀 START HERE</strong></p>
+      <h2>Pster's AI Workflow Explained</h2>
+      <p><strong>Choose your language to jump into the full guide:</strong></p>
+      <p>
+        <a href="#psters-ai-workflow-explained-english"><strong>🇺🇸 English</strong></a>
+        &nbsp;|&nbsp;
+        <a href="#psters-ai-workflow-explicado-portugues-pt-br"><strong>🇧🇷 Português (PT-BR)</strong></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Community
 
