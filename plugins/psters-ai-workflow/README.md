@@ -29,7 +29,6 @@ An anti-vibe-coding, agentic AI workflow plugin for any project, language, and f
 - [FAQ](../../docs/english/faq.md)
 - [Docs quality checklist](../../docs/english/docs-quality-checklist.md)
 - [Wiki sync](../../docs/english/wiki-sync.md)
-- [Add a plugin](../../docs/english/add-a-plugin.md)
 
 ### Portuguese docs
 
@@ -42,7 +41,6 @@ An anti-vibe-coding, agentic AI workflow plugin for any project, language, and f
 - [FAQ](../../docs/portuguese/faq.md)
 - [Checklist de qualidade de documentacao](../../docs/portuguese/docs-quality-checklist.md)
 - [Sincronizacao com wiki](../../docs/portuguese/wiki-sync.md)
-- [Adicionar plugin](../../docs/portuguese/add-a-plugin.md)
 
 ## Quick map
 

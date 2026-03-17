@@ -31,7 +31,6 @@ An anti-vibe-coding, agentic AI workflow that improves results with engineering 
 - [Hooks reference](docs/english/hooks-reference.md)
 - [FAQ](docs/english/faq.md)
 - [Docs quality checklist](docs/english/docs-quality-checklist.md)
-- [Add a plugin](docs/english/add-a-plugin.md)
 
 ### Portuguese docs
 
@@ -44,7 +43,6 @@ An anti-vibe-coding, agentic AI workflow that improves results with engineering 
 - [Referencia de hooks](docs/portuguese/hooks-reference.md)
 - [FAQ](docs/portuguese/faq.md)
 - [Checklist de qualidade de documentacao](docs/portuguese/docs-quality-checklist.md)
-- [Adicionar plugin](docs/portuguese/add-a-plugin.md)
 
 ## Quick map
 
@@ -263,7 +261,6 @@ flowchart TB
 - `docs/english/faq.md`: common questions and usage decisions (EN).
 - `docs/english/docs-quality-checklist.md`: quality checklist before docs merge (EN).
 - `docs/english/wiki-sync.md`: how to publish docs to GitHub Wiki (EN).
-- `docs/english/add-a-plugin.md`: plugin extension instructions (EN).
 - `docs/english/`: English documentation set.
 - `docs/portuguese/`: Portuguese documentation set.
 
@@ -468,7 +465,6 @@ flowchart TB
 - `docs/portuguese/faq.md`: duvidas comuns e decisoes de uso (PT-BR).
 - `docs/portuguese/docs-quality-checklist.md`: checklist de qualidade antes de merge de docs (PT-BR).
 - `docs/portuguese/wiki-sync.md`: como publicar docs na GitHub Wiki (PT-BR).
-- `docs/portuguese/add-a-plugin.md`: instrucoes para extensao de plugin (PT-BR).
 - `docs/english/`: conjunto de documentacao em ingles.
 - `docs/portuguese/`: conjunto de documentacao em portugues.
 

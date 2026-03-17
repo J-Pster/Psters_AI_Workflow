@@ -17,7 +17,6 @@ Esta pasta contém a versão em português da documentação.
 - `commands-reference.md`
 - `command-recipes.md`
 - `examples-in-practice.md`
-- `add-a-plugin.md`
 - `extreme-programming.md`
 - `hooks-reference.md`
 - `faq.md`

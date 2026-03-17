@@ -16,7 +16,6 @@ This folder contains the English version of the documentation.
 - `command-recipes.md`
 - `examples-in-practice.md`
 - `other-editors.md`
-- `add-a-plugin.md`
 - `extreme-programming.md`
 - `hooks-reference.md`
 - `faq.md`

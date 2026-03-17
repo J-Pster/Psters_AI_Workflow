@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is inspired by Keep a Changelog.
 
+## [0.1.6] - 2026-03-16
+
+### Removed
+
+- `docs/english/add-a-plugin.md` and `docs/portuguese/add-a-plugin.md`: leftover template files, removed from all READMEs and docs indexes.
+- Removed all references in `README.md`, `plugins/psters-ai-workflow/README.md`, `docs/english/README.md`, `docs/portuguese/README.md`, and all `.wiki-export/` variants.
+
 ## [0.1.5] - 2026-03-16
 
 ### Added
