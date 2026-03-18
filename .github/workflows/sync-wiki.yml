@@ -58,4 +58,4 @@ jobs:
           fi
           git add .
           git commit -m "docs: sync wiki from repository docs"
-          git push origin master
+          git push origin main
