@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is inspired by Keep a Changelog.
 
+## [1.0.0] - 2026-03-18
+
+### Added
+
+- Introduced a complete prefixed command suite (`/pwf-*`) with dedicated commands for setup, docs operations, quality gates, and specialized work lanes.
+- Added reusable workflow assets and specialist agents for architecture docs, infrastructure docs, ADR generation, review mapping, and plan synchronization.
+- Added new documentation guides in English and Portuguese, including suggested project structure and under-the-hood architecture.
+
+### Changed
+
+- Refined command orchestration to reduce duplication by extracting baseline loading and docs maintenance into shared skills.
+- Expanded workflow documentation and wiki generation with curated language hubs, clearer onboarding flows, and improved deep-link navigation.
+- Standardized plugin policies and guardrails for command naming, docs scope boundaries, operational behavior, and commit/release safety.
+
+### Fixed
+
+- Corrected command and docs path consistency after command-family migration, including anti-drift docs handling and setup behavior.
+- Improved release checks and template validation coverage to catch metadata/version drift earlier.
+
 ## [0.1.7] - 2026-03-16
 
 ### Changed

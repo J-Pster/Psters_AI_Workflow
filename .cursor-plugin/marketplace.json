@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Marketplace manifest for the AI Workflow plugin",
-    "version": "0.1.7",
+    "version": "1.0.0",
     "pluginRoot": "plugins"
   },
   "plugins": [
